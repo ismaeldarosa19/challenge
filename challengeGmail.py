@@ -10,8 +10,8 @@ from datetime import datetime
 
 dbConnect = {
         'host':'localhost',
-        'user':'userChallenge',
-        'password':'Qazxsw21!!',
+        'user':os.getenv('userDB'),
+        'password':os.environ.get('passDB'),
         'database':'challenge'
 
 }
