@@ -9,7 +9,7 @@ from datetime import date
 from datetime import datetime
 
 dbConnect = {
-        'host':'localhost',
+        'host':'mysql',
         'user':os.getenv('userDB'),
         'password':os.environ.get('passDB'),
         'database':'challenge'
